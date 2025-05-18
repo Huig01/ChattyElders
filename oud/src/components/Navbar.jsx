@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+import logo from '../assets/images/pokiballs.png';
+
 const Navbar = () => {
   return (
     <>
@@ -18,7 +20,7 @@ const Navbar = () => {
                   alt="React Jobs"
                 />
                 <span className="hidden md:block text-white text-2xl font-bold ml-2">
-                  Pokimon {/* Home */}
+                  ChattyElders {/* Home */}
                 </span>
               </NavLink>
               <div className="md:ml-auto">
