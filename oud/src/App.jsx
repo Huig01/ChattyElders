@@ -11,14 +11,12 @@ import HomePage from "./pages/HomePage";
 import Vrienden from "./pages/Vrienden";
 import Posts from "./pages/Posts";
 import Login from "./pages/Login";
-import Register from "./pages/Register";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainLayout />}>
       <Route index element={<HomePage />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/register" element={<Register />} />
+      <Route path="/login" element={<Login />} />      
       <Route path="/posts" element={<Posts />} />
       <Route path="/vrienden" element={<Vrienden />} />
     </Route>
